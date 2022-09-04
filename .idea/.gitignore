@@ -1,0 +1,6 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+settings.py
+env/
+*.log
