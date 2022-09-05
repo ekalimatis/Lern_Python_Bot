@@ -6,7 +6,7 @@ from settings import API_KEY
 logging.basicConfig(filename = 'bot.log', level = logging.INFO)
 
 def greet_user(update, context):
-    logging.info('Start', update, context)
+    logging.info('command "Start" received')
     update.message.reply_text('Привет')
 
 def answer_me(update, context):
